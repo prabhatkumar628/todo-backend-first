@@ -4,7 +4,7 @@ import { userDataValideter } from "../utils/zod.js"
 const options = {
     httpOnly: true,
     secure: true,
-    sameSite: "lax",
+    sameSite: "None",
     path: "/"
 }
 
